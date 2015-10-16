@@ -71,6 +71,7 @@ header nav ul li span {
 header nav ul li a:hover {
 	background:#3CAF29;
 	color: #fff;
+	text-decoration: none;
 }
 
 
@@ -112,7 +113,7 @@ header nav ul li a:hover {
    -------------------------------------- */
 
 .caja2{
-	padding: 20px 100px;
+	padding: 50px 100px;
 
 }
 
