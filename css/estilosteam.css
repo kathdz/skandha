@@ -37,8 +37,7 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -55,6 +54,7 @@ Modules - reusable parts of our design
   content: '';
   display: table;
   clear: both;
+
 }
 
 /* -------------------------------- 
@@ -143,6 +143,11 @@ main.slide-out .cd-overlay {
     line-height: 1.8;
     font-size: 18px;
     font-size: 1.125rem;
+  }
+
+  #ulgente{
+    margin-left: 22%;
+    width: 150%;
   }
 }
 
@@ -255,7 +260,14 @@ header p {
   #xcd-team li:nth-child(3n) {
     margin-right: 0;
   }
+#ulgente{
+    margin-left: 22%;
+    width: 150%;
+  }
+
 }
+
+
 
 .cd-member-bio {
   position: fixed;
