@@ -2,19 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Skandha</title>
+	<meta name="description" content="Organización sin fines de lucro que crea hábitos sustentables para reducir el consumo de energía a través de la comunicación positiva y no intrusiva.">
+
+	<!-- Mobile viewport optimized -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!-- Custom CSS -->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/estilosteam.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<link rel="shortcut icon" href="recursos/images/favicon.ico">
 
-	<title>Skandha</title>
+	<!-- Bootstrap CSS -->
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="recursos/images/favicon.ico">
+	
 </head>
 <body>
 
+	<!-- Menu start -->
 	<header class="cabecera">
 		<div class="menu_bar">
 			<a href="#" class="bt-menu"><img src="recursos/images/logo.png" class="logo" alt="logo"></span><i class="fa fa-bars fa-2x menuicon"></i><span class="imglogo"></a>
@@ -23,17 +38,99 @@
 			<span class="imglogo"><img src="recursos/images/logo.png" class="logo" alt="logo"></span>
 			<ul>
 				<li><a href="#">Inicio</a></li>
-				<li><a href="#about_us">Sobre Skandha</a></li>
-				<li><a href="#join_skandha">Únete</a></li>
+				<li><a href="#featuresHeading">Sobre Skandha</a></li>
 				<li><a href="#cd-team">Equipo</a></li>
+				<li><a href="#join_skandha">Únete</a></li>
 			</ul>
 		</nav>
-		<div id="content">
+	</header>
+	<!-- Menu end -->
 
-			<div class="video_caja">
-					<!-- video start -->
-				    <section id="video" class="video norm-img">
-				      <div class="trans-bg">
+
+		<!-- Carousel start -->
+		<div class="carousel slide" id="myCarousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Charlas en eventos</h4>
+							<p>Skandha ha estado presente en Congresos sobre el Cambio Climático, realizados en México y Estados Unidos.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Skandha en mi escuela</h4>
+							<p>Nos encargamos de ir a tu institución, platicar y capacitar a los alumnos interesados en unirse a este gran movimiento.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Contenido para hacer conciencia</h4>
+							<p>Nuestro material tiene como objetivo brindar información de una manera consciente y divertida.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div>
+			<!-- Carousel end -->
+			
+	<!-- Info start -->
+	<div class="caja2">
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				<img class="img-responsive" src="recursos/images/skanda_bio.png" style="margin: 0 auto">
+				<p class="lead" style="padding-top: 20px;">Organización sin fines de lucro que crea hábitos sustentables para reducir el consumo de energía a través de la comunicación positiva y no intrusiva.</p>
+			</div><!-- end col-12 -->
+		</div><!-- end featuresHeading -->
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Escuela</h3>
+						</div><!-- end panel-heading -->
+							<img src="recursos/images/escuela.png" alt="HTML5" class="img-circle">
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+					
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Empresas</h3>
+						</div><!-- end panel-heading -->
+							<img src="recursos/images/empresas.png" alt="CSS3" class="img-circle">
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+					
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Comunidades</h3>
+						</div><!-- end panel-heading -->
+							<img src="recursos/images/comunidades.png" alt="Bootstrap 3" class="img-circle">	
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+	</div>	
+	<!-- Info end -->
+
+
+	<!-- Video start -->
+
+	<div id="content">
+		<div class="video_caja">
+			<section id="video" class="video norm-img">
+				<div class="trans-bg">
 				        <div class="video-container"><div id="player"></div><div class="video-mask"></div></div>
 				        <div class="container">
 				          <div class="row">
@@ -64,40 +161,10 @@
 				        </div>        	
 				      </div> <!-- /.trans-bg -->
 				    </section>
-				    <!-- video end -->
 			</div>
          </div> 
-	</header>
-	<section id="about_us">
-		<div class="bio_ska">
-			<img class="img-responsive" src="recursos/images/skanda_bio.png">
-			<p>Organización sin fines de lucro que crea hábitos sustentables para reducir el consumo de energía a través de la comunicación positiva y no intrusiva.</p>
-			<ul class="fa-ul">
-				<li><i class="fa-li fa fa-recycle" style="color:#3CAF29"></i>Escuelas</li>
-				<li><i class="fa-li fa fa-recycle" style="color:#3CAF29"></i>Empresas</li>
-				<li><i class="fa-li fa fa-recycle" style="color:#3CAF29"></i>Comunidades</li>
-			</ul>
-		</div>
-		<div class="img_ska img-responsive">
-			<img src="recursos/images/ico.png">
-		</div>
-	</section>
-	<section id="actividades">
-		<div class="apartados">
-			<div class="font"><i class="fa fa-commenting fa-4x" style="color:#fff"></i></div>
-			<div class="textos">Dar una plática.</div>
-		</div>
-		<div class="apartados">
-			<div class="font"><i class="fa fa-graduation-cap fa-4x" style="color:#fff"></i></div>
-			<div class="textos">Skandha en mi escuela.</div>
-		</div>
-		<div class="apartados">
-			<div class="font"><i class="fa fa-download fa-4x" style="color:#fff"></i></div>
-			<div class="textos">Descargar contenido.</div>
-		</div>
-		
-	</section>
-	
+	<!-- Video end -->
+
 
 	<!-- Team start -->
 	<main>
@@ -105,7 +172,7 @@
 		<section id="cd-team" class="cd-section">
 			<div class="cd-container">
 				<h2>Nuestro Equipo</h2>
-				<ul>
+				<ul id="ulgente">
 					<li>
 						<a href="#0" data-type="member-1">
 							<figure>
@@ -140,6 +207,7 @@
 		<div class="cd-overlay"></div>
 	</main>
 
+
 	<div class="cd-member-bio member-1">
 		<div class="cd-member-bio-pict">
 			<img src="img/member-bio-img-1.jpg" alt="Member Bio image">
@@ -159,7 +227,9 @@
 
 		<div class="cd-bio-content">
 			<h1>Erika M. Díaz</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, amet, voluptatibus et omnis dolore illo saepe voluptatem qui quibusdam sunt corporis ut iure repellendus delectus voluptate explicabo temporibus quos eaque?</p>
+			<br/>
+			<br/>
+			<a href="http://www.researchgate.net/profile/Erika_Diaz-Almeyda" style="text-align: center;">Researchgate</a>
 			
 		</div> <!-- cd-bio-content -->
 	</div> <!-- cd-member-bio -->
@@ -167,7 +237,7 @@
 	
 	<a href="#0" class="cd-member-bio-close">Close</a>
 
-	<!-- team end -->
+	<!-- Team end -->
 
 <!-- social start -->
     <section id="join_skandha" class="join norm-img">
@@ -186,6 +256,9 @@
       </div> <!-- /.trans-bg -->   
     </section>
     <!-- social end -->
+
+
+    <!-- Footer end -->
     
 	<div class="navbar navbar-default navbar-fixed-bottom">
 		<div class="container">
@@ -195,15 +268,25 @@
 	</div>
 
 	<footer></footer>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/main.js"></script>
+
+
+	<!-- Footer end -->
+
+	
+	<!-- Files of jQuery-->
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<!-- Files of Boostrap-->
 	<script type="text/javascript" src="bootstrap/js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Files of JavaScript-->
+	<script src="js/main.js"></script>
 	<script src="js/jquery.parallax.js"></script>
 	<script src="js/wow.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
-	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/.js"></script>
 
 </body>
 </html>
